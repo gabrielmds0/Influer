@@ -1,5 +1,7 @@
 import Hero from '../components/Hero/Hero'
 import Features from './Features/Features'
+import Pricing from './Pricing/Pricing'
+
 function Home() {
   return (
     <div>
@@ -8,6 +10,8 @@ function Home() {
 
     
     <Features />
+    
+    <Pricing />
 
   </div>
 
