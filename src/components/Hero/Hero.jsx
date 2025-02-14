@@ -8,20 +8,16 @@ export default function Hero() {
       <div className="hero-content">
         <div className="hero-headline">
           <span className="hero-gradient">Transforme sua</span>
-          <span className="hero-gradient">Produtividade</span>
+          <span className="hero-gradient">Rede Social</span>
         </div>
         
         <p className="hero-subtitle">
-          Plataforma tudo-em-um para gestão de projetos, equipes e resultados com IA generativa
+          Plataforma tudo-em-um para gestão de social media com IA generativa
         </p>
 
         <div className="hero-actions">
           <button className="cta-primary">
             Começar agora
-          </button>
-          <button className="cta-secondary">
-            <span>Assistir vídeo</span>
-            <div className="play-icon">▶</div>
           </button>
         </div>
       </div>
