@@ -5,6 +5,8 @@ import Register from './components/Register/Register';
 import ProfileSetup from './components/ProfileSetup/ProfileSetup';
 import Header from './components/Header/Header';
 import Footer from './components/Footer/Footer';
+import 'font-awesome/css/font-awesome.min.css';
+
 
 
 import './App.css'
