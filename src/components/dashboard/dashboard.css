@@ -1,0 +1,15 @@
+.dashboard {
+  min-height: 100vh;
+  background-color: #f8f9fa;
+}
+
+.dashboard-main {
+  min-height: calc(100vh - 60px); /* Account for top nav height */
+  background-color: #f8f9fa;
+  position: relative;
+}
+
+/* Ensure content is properly spaced */
+.dashboard > * {
+  box-sizing: border-box;
+}

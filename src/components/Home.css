@@ -1,0 +1,25 @@
+.home-content {
+  min-height: calc(100vh - 140px);
+  padding-top: 60px;
+  display: flex;
+  flex-direction: column;
+  background: #020617;
+}
+
+/* Remove gaps between sections */
+.home-content > * {
+  width: 100%;
+}
+
+/* Adjust Features padding */
+.home-content .features {
+  padding: 4rem 2rem;
+  margin: 0;
+}
+
+/* Adjust Pricing padding */
+.home-content .pricing {
+  padding: 4rem 2rem;
+  min-height: auto;
+  margin: 0;
+}

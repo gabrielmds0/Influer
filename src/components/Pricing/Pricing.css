@@ -7,7 +7,7 @@
   position: relative;
   min-height: 100vh;
   padding: 100px 2rem 0;
-  background: #020617;
+  background: transparent;
   overflow: hidden;
   display: flex;
   align-items: center;

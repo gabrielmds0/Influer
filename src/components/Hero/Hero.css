@@ -2,7 +2,8 @@
 .hero {
   position: relative;
   min-height: 100vh;
-  padding: 120px 2rem 0;
+  padding: 0 2rem;
+  margin-top: -60px;
   background: #020617;
   overflow: hidden;
   display: flex;
@@ -40,6 +41,7 @@
   text-align: center;
   position: relative;
   z-index: 1;
+  padding-top: 120px;
 }
 
 .hero-headline {
@@ -205,7 +207,11 @@
 
 @media (max-width: 768px) {
   .hero {
-    padding: 100px 1.5rem 0;
+    padding: 0 1.5rem;
+  }
+
+  .hero-content {
+    padding-top: 100px;
   }
   
   .hero-gradient {

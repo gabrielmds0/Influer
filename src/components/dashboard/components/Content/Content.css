@@ -1,0 +1,12 @@
+.content-manager {
+  margin-left: 250px; /* Account for sidebar */
+  padding: 80px 20px 20px; /* Account for top nav */
+}
+
+.content-manager-wrapper {
+  background-color: #ffffff;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  min-height: calc(100vh - 100px);
+}

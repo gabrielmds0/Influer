@@ -1,21 +1,23 @@
-import Hero from '../components/Hero/Hero'
-import Features from './Features/Features'
-import Pricing from './Pricing/Pricing'
+import React from 'react';
+import './Home.css';
+import Header from './Header/Header';
+import Hero from './Hero/Hero';
+import Features from './Features/Features';
+import Pricing from './Pricing/Pricing';
+import Footer from './Footer/Footer';
 
 function Home() {
   return (
     <div>
-  
-    <Hero />
-
-    
-    <Features />
-    
-    <Pricing />
-
-  </div>
-
-  )
+      <Header />
+      <main className="home-content">
+        <Hero />
+        <Features />
+        <Pricing />
+      </main>
+      <Footer />
+    </div>
+  );
 }
 
-export default Home
+export default Home;

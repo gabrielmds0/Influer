@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { useLocation, useNavigate } from 'react-router-dom';
 import { Person } from '@mui/icons-material';
-import { doc, updateDoc } from 'firebase/firestore';
+import { doc, setDoc } from 'firebase/firestore';
 import { db } from '../firebaseConfig';
 import { ToastContainer, toast, Bounce } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
@@ -54,12 +54,12 @@ const ProfileSetup = () => {
       }
 
       const userRef = doc(db, "users", userId);
-      await updateDoc(userRef, {
+      await setDoc(userRef, {
         ...formData,
         followerCount: Number(formData.followerCount),
         profileComplete: true,
         updatedAt: new Date()
-      });
+      }, { merge: true });
 
       toast.success('Profile setup completed!', {
         position: "top-right",

@@ -1,0 +1,14 @@
+.top-nav {
+  height: 60px;
+  background-color: #ffffff;
+  border-bottom: 1px solid #e9ecef;
+  padding: 0 20px;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 250px; /* Account for sidebar width */
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
