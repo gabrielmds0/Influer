@@ -1,7 +1,6 @@
 import React from 'react';
 import { Routes, Route } from 'react-router-dom';
 import Sidebar from './components/Sidebar/Sidebar';
-import TopNav from './components/TopNav/TopNav';
 import Overview from './components/Overview/Overview';
 import Analytics from './components/Analytics/Analytics';
 import Content from './components/Content/Content';
@@ -12,7 +11,6 @@ const Dashboard = () => {
   return (
     <div className="dashboard">
       <Sidebar />
-      <TopNav />
       <main className="dashboard-main">
         <Routes>
           <Route path="/" element={<Overview />} />
